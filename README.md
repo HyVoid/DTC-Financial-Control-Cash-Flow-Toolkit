@@ -14,7 +14,7 @@
 > [*HTML Live Demo*](https://hyvoid.github.io/DTC-Financial-Control-Cash-Flow-Toolkit/)
 >
 > 📥 **Download Excel Version**  
-> [*Download link*](https://alexhasgreatestuff.gumroad.com/l/iybjto)
+> [*Download link*](https://alexhasgreatestuff.gumroad.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)
 
 ---
 
