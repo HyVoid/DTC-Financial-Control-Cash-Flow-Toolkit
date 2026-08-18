@@ -18,15 +18,6 @@
 
 ---
 
-# Screenshots
-
-<img width="1536" height="1024" alt="ChatGPT Image Jul 20, 2026, 04_33_40 PM" src="https://github.com/user-attachments/assets/f60ec3ae-7f8f-4d4f-9af0-bb72b05f83da" />
-
-
-*Native Excel workbook with automated reconciliation engine, rolling cash flow forecasting, inventory simulation, and executive reporting.*
-
----
-
 # What It Helps You Track
 
 - Real cash position instead of simply checking the current bank balance.
