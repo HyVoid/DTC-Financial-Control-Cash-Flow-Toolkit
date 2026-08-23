@@ -8,7 +8,9 @@
 
 **A lightweight financial operating system that transforms Shopify sales, bank transactions, accounting records, inventory purchasing, and advertising spend into a single decision framework—availabl[...]**
 
-> ## **No signup. No installation. Free.**
+**No signup. No installation. Free in your browser.**
+
+Try the browser version for free. If you need the Excel version, you can buy it with a 7-day money-back guarantee.
 >
 > 🌐 **Open in Browser**  
 > [*HTML Live Demo*](https://hyvoid.github.io/DTC-Financial-Control-Cash-Flow-Toolkit/)
