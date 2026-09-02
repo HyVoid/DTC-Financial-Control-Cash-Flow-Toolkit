@@ -902,7 +902,7 @@ Examples include:
 - Executive KPI Dashboards
 - Cash Flow Forecasting Frameworks
 
-Additional tools are available through the GitHub repository and Gumroad collection.
+Additional tools are available through the GitHub repository and our [Website](https://www.theseusworkshop.com/).
 
 ---
 
