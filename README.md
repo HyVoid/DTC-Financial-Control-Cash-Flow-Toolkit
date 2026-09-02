@@ -16,7 +16,7 @@ Try the browser version for free. If you need the Excel version, you can buy it 
 > [*HTML Live Demo*](https://hyvoid.github.io/DTC-Financial-Control-Cash-Flow-Toolkit/)
 >
 > 📥 **Download Excel Version**  
-> [*Download link*](https://alexhasgreatestuff.gumroad.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)
+> [*Download link*](https://www.theseusworkshop.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)
 
 ---
 
