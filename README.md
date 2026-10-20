@@ -1,6 +1,7 @@
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 # DTC Financial Control & Cash Flow Toolkit
 
-### Excel & Browser-Based Financial Control, Cash Flow Forecasting, Reconciliation, and Operational Decision Support for Shopify Brands
+## Excel & Browser-Based Financial Control, Cash Flow Forecasting, Reconciliation, and Operational Decision Support for Shopify Brands
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success.svg)
@@ -20,7 +21,7 @@ Try the browser version for free. If you need the Excel version, you can buy it 
 
 ---
 
-# What It Helps You Track
+## What It Helps You Track
 
 - Real cash position instead of simply checking the current bank balance.
 - Shopify settlements that never reached the bank before they become accounting problems.
@@ -31,7 +32,7 @@ Try the browser version for free. If you need the Excel version, you can buy it 
 
 ---
 
-# Quick Start Workflow
+## Quick Start Workflow
 
 ### 1. Configure business parameters once
 
@@ -82,7 +83,7 @@ All calculations, forecasts, charts, and risk indicators refresh automatically w
 
 ---
 
-# Why I Built This
+## Why I Built This
 
 Many growing Shopify brands believe they have financial visibility because they have accounting software, bank balances, and sales dashboards.
 
@@ -142,7 +143,7 @@ The objective is better decisions before cash problems become operational emerge
 
 ---
 
-# Common DTC Finance Problems This Solves
+## Common DTC Finance Problems This Solves
 
 | Problem | Without This Tool | With This Tool |
 |-----------|------------------|----------------|
@@ -155,7 +156,7 @@ The objective is better decisions before cash problems become operational emerge
 
 ---
 
-# Who This Is For
+## Who This Is For
 
 This workbook is designed for:
 
@@ -173,7 +174,7 @@ No spreadsheet expertise is required. Open the browser version or Excel workbook
 
 ---
 
-# About
+## About
 
 I build lightweight Excel and browser-based decision-support tools for operational environments where too many moving parts make reliable decisions difficult.
 
@@ -181,14 +182,14 @@ Each workbook starts with one practical question:
 > "What information needs to exist in one place before the next decision can be made confidently?" 
 ---
 
-# Technical Details
+## Technical Details
 
 <details>
 <summary><strong>For technical reviewers, Excel practitioners, and collaborators</strong></summary>
 
 ---
 
-# Workbook Architecture
+## Workbook Architecture
 
 The workbook follows a strict three-layer architecture that separates raw data, analytical logic, and executive reporting. Every sheet has a single responsibility, making the workbook easier to audit,[...]
 
@@ -313,7 +314,7 @@ As source data grows, calculations automatically expand without copying formulas
 
 ---
 
-# Three Traps That Catch Even Experienced Finance Teams
+## Three Traps That Catch Even Experienced Finance Teams
 
 ---
 
@@ -906,7 +907,7 @@ Additional tools are available through the GitHub repository and our [Website](h
 
 ---
 
-# License
+## License
 
 Licensed under the **Apache License 2.0**.
 
