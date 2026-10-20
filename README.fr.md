@@ -145,7 +145,7 @@ Je conçois des outils légers d'aide à la décision sous Excel et dans le navi
 
 ## Architecture du classeur
 
-Le classeur suit une architecture stricte à trois couches qui sépare les données brutes, la logique analytique et le reporting de direction. Chaque feuille a une responsabilité unique, ce qui rend le classeur plus facile à auditer,[...]
+Le classeur suit une architecture stricte à trois couches qui sépare les données brutes, la logique analytique et le reporting de direction. Chaque feuille a une responsabilité unique, ce qui rend le classeur plus facile à auditer, à étendre et à transmettre.
 
 ```
                 ┌────────────────────────────┐
