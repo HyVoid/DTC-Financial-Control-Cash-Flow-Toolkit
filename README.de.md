@@ -145,7 +145,7 @@ Ich baue schlanke Excel- und browserbasierte Entscheidungsunterstützungstools f
 
 ## Architektur der Arbeitsmappe
 
-Die Arbeitsmappe folgt einer strengen dreischichtigen Architektur, die Rohdaten, analytische Logik und Executive-Reporting trennt. Jedes Blatt hat eine einzige Verantwortung, was die Arbeitsmappe leichter auditierbar macht,[...]
+Die Arbeitsmappe folgt einer strengen dreischichtigen Architektur, die Rohdaten, analytische Logik und Executive-Reporting trennt. Jedes Blatt hat eine einzige Verantwortung, was die Arbeitsmappe leichter auditierbar, erweiterbar und übertragbar macht.
 
 ```
                 ┌────────────────────────────┐
