@@ -1,185 +1,139 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
-# Excel-toolkit voor DTC financiële controle & cashflow
 
-## Financiële controle, cashflowprognose, reconciliatie en operationele besluitondersteuning via Excel en browser voor Shopify-merken
+# DTC Financiële Controle & Cashflowprognose Toolkit | Shopify Excel-sjabloon
+<img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/2b140bc1-af18-4481-82c0-d626669f8fe2" />
+
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success.svg)
-![Tool](https://img.shields.io/badge/Tool-Decision%20Support-orange.svg)
+![Tool](https://img.shields.io/badge/Tool-Financial%20Modeling-orange.svg)
 
-**Een lichtgewichtig financieel besturingssysteem dat Shopify-verkopen, banktransacties, boekingsrecords, voorraadaankopen en advertentie-uitgaven omzet in één besluitkader— [...]**
+**Een alles-in-één sjabloon voor e-commerce financiële modellering en cashflowprognose dat Shopify-uitbetalingen, bankreconciliaties, voorraadinkooporders en advertentie-uitgaven omzet in één uniform kader voor liquiditeitsplanning. Een lichtgewicht besluitondersteuningsalternatief voor complexe ERP-systemen voor direct-to-consumer (DTC)-merken.**
 
 **Geen registratie. Geen installatie. Gratis in uw browser.**
 
-Probeer de browserversie gratis. Als u de Excel-versie nodig heeft, kunt u deze kopen met een 30-dagen geld-terug-garantie zonder vragen.
+Test uw operationele data direct in de gratis browserversie. Voor doorlopende maandelijkse financiële planning en gegevensbeveiliging offline kunt u upgraden naar het volledig ontgrendelde Excel-sjabloon, met een 30-daagse geld-terug-garantie zonder vragen.
+
+> 🌐 **Interactief dashboard openen**  
+> [Probeer de gratis browsergebaseerde DTC-cashflowsimulator](https://hyvoid.github.io/DTC-Financial-Control-Cash-Flow-Toolkit/)
 >
-> 🌐 **Openen in browser**  
-> [*HTML-live-demo*](https://hyvoid.github.io/DTC-Financial-Control-Cash-Flow-Toolkit/)
->
-> 📥 **Excel-versie downloaden**  
-> [*Downloadlink*](https://www.theseusworkshop.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)
+> 📥 **Download de herbruikbare spreadsheet**  
+> [Download het Shopify Excel-sjabloon voor financiële controle](https://www.theseusworkshop.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)
 
 ---
 
-## Wat het helpt te volgen
+## Wat het u helpt te volgen: E-commerce financiële pijnpunten vs. oplossingen
 
-- De werkelijke cashpositie in plaats van alleen het controleren van het huidige banksaldo.
-- Shopify-uitbetalingen die de bank nooit bereikten voordat ze boekhoudkundige problemen werden.
-- Risico's op dubbele facturen en betalingen voordat geld het bedrijf verlaat.
-- Toekomstige cashtekorten door voorraadaankopen, weken voordat ze optreden.
-- Advertentie-uitgaven naast inkomende uitbetalingen om de operationele liquiditeit te begrijpen in plaats van geïsoleerde marketingkosten.
-- Beslissingen over voorraadaankopen en hun impact op het toekomstige werkkapitaal onder verschillende betalingsvoorwaarden.
+In plaats van te vertrouwen op geïsoleerde rapporten van boekhoudsoftware, biedt deze toolkit vooruitkijkende financiële zichtbaarheid. 
 
----
-
-## Snelstartworkflow
-
-### 1. Configureer bedrijfsparameters eenmalig
-
-Open het blad **Parameters** en definieer operationele instellingen zoals de minimale cashreserve, de rapportagevaluta, de wisselkoersen, de prognosehorizon en andere bedrijfsdrempels. Deze waarden worden [...]
+| Operationeel pijnpunt (het „waarom”) | Oplossing financiële controle (het „hoe”) |
+| :--- | :--- |
+| **Blinde banksaldi:** Gokken naar de werkelijke cash runway op basis van het lopende rekeningsaldo van vandaag. | **Echte prognose van de cashpositie:** Berekent de werkelijke operationele liquiditeit door openstaande schulden te projecteren tegen toekomstig cash. |
+| **Ontbrekende Shopify-uitbetalingen:** Ongekoppelde merchant settlements die boekhoudkundige nachtmerries aan het einde van de maand veroorzaken. | **Geautomatiseerde settlementreconciliatie:** Signaleert transitvertragingen en blokkeringsrekeningen voordat ze boekhoudkundige fouten worden. |
+| **Factuurfraude en -fouten:** Per ongeluk twee keer betalen aan dezelfde leverancier over verschillende factureringscycli. | **AP-review & verificatie:** Markeert risico's van dubbele facturen en betalingen voordat werkkapitaal het bedrijf verlaat. |
+| **Tekorten aan werkkapitaal:** Betalen voor grossistenvoorraad weken voordat de cashflow-dip daadwerkelijk toeslaat. | **Simulatie van financiering van inkooporders (PO):** Modelleert toekomstige cashtekorten die worden veroorzaakt door aanstaande voorraadaanbetalingen en productievoorwaarden. |
+| **Geïsoleerde marketinguitgaven:** Facebook-/Google-advertentiekosten apart bekijken van brutomarges en inkomend cash. | **Holistische ROAS-liquiditeitstracking:** Analyseert dagelijkse advertentie-uitgaven naast inkomende gateway-settlements om de werkelijke cash burn te begrijpen. |
 
 ---
 
-### 2. Importeer bestaande bedrijfsgegevens
+## Snelstart-tutorial: Hoe u uw cashflowanalyse automatiseert
 
-Plak geëxporteerde CSV-bestanden direct in de aangewezen invoerbladen.
+Transformeer uw ruwe e-commercegegevens in vier gestructureerde stappen naar een executive financieel dashboard.
 
-Typische bronnen zijn onder meer:
+### Stap 1: Financiële parameters configureren (eenmalige installatie)
+Open het blad **Parameters** om uw basisregels voor werkkapitaal vast te leggen. Stel uw minimale cashreservendrempel, rapportagevaluta, wisselkoersen en de prognosehorizon van 12 weken in. Deze invoer vormt de basis voor uw eigen financiële besturingssysteem.
 
-- Shopify Orders & Payouts
-- Bank Statements
-- Accounting System Exports
-- Purchase Orders
-- Facebook Ads
-- Google Ads
+### Stap 2: Importeer uw e-commerce- en boekhoudgegevens
+Omzeil handmatige gegevensinvoer. Exporteer CSV-rapporten uit uw bestaande tech-stack en plak ze direct in de aangewezen invoerbladen. Ondersteunde gegevensbronnen zijn onder meer:
+*   Shopify-bestellingen & merchant-uitbetalingen
+*   Bankafschriften van betaal- & spaarrekeningen
+*   Exporten uit boekhoudsystemen (QuickBooks, Xero)
+*   Inkooporders van leveranciers (PO's)
+*   Facebook Ads- & Google Ads-uitgaven
 
-Er is geen handmatige herstructurering of formulebewerking nodig. Bestaande exports uit boekhoudsoftware of spreadsheets kunnen direct in de overeenkomstige tabellen worden geplakt.
+### Stap 3: Genereer geautomatiseerde liquiditeits- en ROAS-analyse
+Navigeer naar het **Dashboard** en de analysenodules. Zonder ook maar één formule te schrijven, visualiseert de geautomatiseerde reconciliatie-engine onmiddellijk:
+*   Ongekoppelde gateway-settlementuitzonderingen
+*   Waarschuwingen voor dubbele schulden aan crediteuren (AP)
+*   Rollende cashflowprognoses over 12 weken
+*   Druk op voorraadfinanciering en runway
+*   Executive operationele KPI's
 
----
+### Stap 4: Bouw een routine op & download voor herhaald gebruik
+Gebruik voor uw eerste run de browserversie om de directe analytische impact te zien. Om een robuuste maandelijkse routine op te bouwen, exporteert u het systeem voor langdurig gebruik. 
 
-### 3. Controleer de automatische analyse
-
-Open het dashboard en de analysebladen.
-
-Het werkmodel wordt direct bijgewerkt:
-
-- reconcileringsuitzonderingen
-- meldingen over dubbele betalingen
-- rollende cashflowprognoses
-- druk op de voorraadfinanciering
-- executive-KPI's
-
-Er zijn geen handmatige berekeningen nodig.
+👉 **Actie vereist:** Zodra u uw workflow in de browser heeft gevalideerd, **[downloadt u hier de herbruikbare Excel-cashflowsjabloon](https://www.theseusworkshop.com/l/iybjto?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=dtc-financial-control-cashflow)**. Werk uw analyse wekelijks of maandelijks bij door simpelweg nieuwe brontabellen over de oude te plakken—alle grafieken, prognoses en risico-indicatoren worden automatisch vernieuwd.
 
 ---
 
-### 4. Werk regelmatig bij
+## Praktijkscenario's: Wanneer u deze e-commercefinancieringstoolkit gebruikt
 
-Werk geïmporteerde gegevens wekelijks of maandelijks bij door de brontabellen te vervangen door de nieuwste exports.
+Dit systeem is ontworpen voor kritieke keerpunten in de levenscyclus van een DTC-merk waarop vertrouwen op historische boekhoudgegevens niet langer voldoende is.
 
-Alle berekeningen, prognoses, grafieken en risico-indicatoren vernieuwen automatisch zonder het werkmodel opnieuw op te bouwen.
-
-**Stel enkele belangrijke parameters in. Voeg uw bestaande gegevens toe. Krijg de analyse. Werk bij wanneer u dat nodig heeft.**
-
----
-
-## Waarom ik dit heb gebouwd
-
-Veel groeiende Shopify-merken geloven dat ze financiële zichtbaarheid hebben omdat ze boekhoudsoftware, banksaldi en verkoopdashboards hebben.
-
-In werkelijkheid beantwoorden deze systemen verschillende vragen.
-
-De boekhouding legt uit wat al is gebeurd.
-
-Shopify legt uit wat klanten hebben gekocht.
-
-Banken laten zien waar het cash nu ligt.
-
-Advertentieplatformen leggen uit waar het geld is uitgegeven.
-
-Geen ervan legt uit of de operationele beslissingen van vandaag over zes weken een cashprobleem veroorzaken.
-
-Die analytische leemte veroorzaakt dure fouten.
-
-Voorraad wordt besteld omdat de verkoop sterk lijkt.
-
-Advertentiebudgetten stijgen omdat de omzet groeit.
-
-Leveranciersbetalingen worden goedgekeurd omdat het huidige banksaldo gezond lijkt.
-
-Pas later ontdekt het bedrijf dat de timing van uitbetalingen, voorraadaanbetalingen, advertentiekosten en openstaande facturen overlappen en een liquiditeitstekort veroorzaken.
-
-Ik heb dit werkmodel gebouwd als een herbruikbaar besluitkader in plaats van nog een rapportagespreadsheet.
-
-In plaats van losgekoppelde rapporten te beoordelen, combineert het werkmodel operationele gegevens in één financieel redeneermodel.
-
-Bijvoorbeeld:
-
-**Voor**
-
-Een Shopify-winkel rapporteert $480,000 aan maandelijkse omzet.
-
-Het management keurt een voorraadaankoop van $150,000 goed.
-
-Drie weken later reduceren advertentiefacturen, leveranciersaanbetalingen en vertraagde Shopify-uitbetalingen het beschikbare cash onder de loonbehoeften.
-
----
-
-**Na**
-
-Dezelfde aankoop wordt voor goedkeuring in de Inventory Impact Simulator ingevoerd.
-
-Het werkmodel prognosticeert direct dat het cash in week 7 onder de geconfigureerde veiligheidsreserve valt.
-
-Het management stelt een deel van de aankoop twee weken uit en onderhandelt over herziene betalingsvoorwaarden met de leverancier.
-
-De omzet blijft ongewijzigd.
-
-Het cashrisico verdwijnt.
-
-Het doel is niet beter rapporteren.
-
-Het doel zijn betere beslissingen voordat cashproblemen operationele noodgevallen worden.
+*   **Scenario A: Voorraadplanning voor de Q4-feestdagen.** U moet grote productieorders in Q3 plaatsen, maar weet niet zeker of de 30% aanbetaling en 70% restant bij levering uw cashreserves breken voordat de Black Friday-omzet binnenkomt. Gebruik de *Inventory Impact Simulator* om uw betalingsvoorwaarden te stresstesten.
+*   **Scenario B: Opsummeren van paid media-budgetten.** De omzet groeit, maar ook uw dagelijkse advertentie-uitgaven. U moet ervoor zorgen dat de vertraging tussen het verlaten van de bank door advertentie-uitgaven en het verwerken van Shopify-uitbetalingen geen kortetermijnliquiditeitsprobleem veroorzaakt.
+*   **Scenario C: Boekhoudaudits aan het einde van de maand.** Uw gerapporteerde Shopify-brutoverkopen komen niet overeen met de netto stortingen op uw bankrekening door terugbetalingen, chargebacks en platformkosten. Gebruik de toolkit voor geautomatiseerde 3-weg-reconciliatie.
 
 ---
 
 ## Veelvoorkomende DTC-financiële problemen die dit oplost
 
-| Probleem | Zonder deze tool | Met deze tool |
-|-----------|------------------|----------------|
-| Shopify-uitbetalingen stemmen niet overeen met bankstortingen | Financiële teams zoeken handmatelijk door honderden transacties | De automatische reconciliatie benadrukt ongekoppelde uitbetalingen direct |
-| Dubbele leveranciersbetalingen | Dubbele facturen worden ontdekt nadat het geld al is verzonden | De betalingsreview signaleert dubbele factuurnummers vóór goedkeuring van de betaling |
-| Cashtekorten verschijnen onverwachts | Beslissingen steunen op het banksaldo van vandaag | Rollende prognoses schatten toekomstige cashposities over de komende 12 weken |
-| Voorraadaankopen overschrijden het werkkapitaal | Aankoopbeslissingen negeren toekomstige verplichtingen | Voorraadsimulaties schatten het liquiditeitseffect vóór goedkeuring van inkooporders |
-| Advertentie-uitgaven groeien sneller dan inkomend cash | Marketing en finance werken vanaf aparte rapporten | Advertentiekosten en uitbetalingsinstromen verschijnen in één prognosemodel |
-| Executive-rapportage vereist meerdere systemen | Beslissers verzamelen informatie handmatig | Het Financial Dashboard vat operationele KPI's samen in één weergave |
+| E-commerce boekhoudprobleem | Traditioneel handmatig proces | Geautomatiseerde toolkitoplossing |
+| :--- | :--- | :--- |
+| **Shopify-uitbetalingen reconciliëren niet** met bankvereffeningsrekeningen | Controllers zoeken handmatig door honderden betalingsgatewaytransacties | Geautomatiseerde 3-weg-reconciliatie benadrukt ongekoppelde merchant-uitbetalingen onmiddellijk |
+| **Dubbele leveranciersbetalingen** en factuurfouten | AP-afdelingen ontdekken dubbele PO-betalingen na de overschrijving | Het AP-reviewsysteem signaleert dubbele factuur-ID's voordat werkkapitaal wordt ingezet |
+| **Cashtekorten verschijnen onverwachts** tijdens groei | Bedrijfsbeslissingen steunen strikt op het statische banksaldo van vandaag | Rollende financiële modellen schatten toekomstige cashposities over de komende 12 weken |
+| **Voorraadaankopen overschrijden het werkkapitaal** | Inkoopbeslissingen negeren toekomstige verplichtingen en vrachtkosten | Voorraadsimulaties schatten de liquiditeitsimpact voordat productie-PO's worden goedgekeurd |
+| **Advertentie-uitgaven groeien sneller dan inkomend cash** | Marketing- en financiële teams werken in silo's met aparte spreadsheets | Advertentiekosten en settlementinstromen worden geïntegreerd in één prognosemodel |
+| **Executive-rapportage vereist meerdere softwaresystemen** | Beslissers verspillen uren aan het handmatig samenstellen van gefragmenteerde gegevens | Het Financial Dashboard vat operationele metrics en KPI's samen in één gecentraliseerd overzicht |
 
 ---
 
-## Voor wie dit is
+## Voor wie dit is: Rollen & gebruikssituaties
 
-Dit werkmodel is ontworpen voor:
+Deze toolkit overbrugt de kloof tussen eenvoudige boekhouding en enterprise treasury management. Hij is bewust gebouwd voor:
 
-- Shopify- en DTC-merken die toenemende operationele complexiteit beheren.
-- Financieel managers verantwoordelijk voor cashplanning en reconciliatie.
-- CFO's die vooruitziende liquiditeitsanalyse nodig hebben in plaats van historische rapportage.
-- Operationele teams die inkoop, voorraad en betaaltiming coördineren.
-- Oprichters die één operationeel overzicht nodig hebben over verkoop, boekhouding, banken, voorraad en marketing.
+*   **E-commerce CFO's & Fractional CFO's** die een betrouwbare *Shopify cashflow Excel-sjabloon* nodig hebben om vooruitkijkende adviesdiensten en klantrapportage te leveren.
+*   **DTC-oprichters & bedrijfseigenaren** die op zoek zijn naar een *financieel dashboard software*-alternatief dat operationele duidelijkheid biedt zonder de zescijferige ERP-implementatiekosten.
+*   **Financiële managers & controllers** die verantwoordelijk zijn voor maandelijkse *betalingsgatewayreconciliatie* en het voorkomen van cashlekken.
+*   **Operations- & supply chain-teams** die een *voorraadprognose-spreadsheet* zoeken om inkoopvolume af te stemmen op optimale betalingstiming.
+*   **Performance marketing managers** die de opschaling van advertentie-uitgaven moeten afstemmen op de realiteit van het werkelijke banksaldo.
 
-Het is **niet** ontworpen om ERP-systemen, boekhoudsoftware of enterprise-treasuryplatformen te vervangen.
-
-Het biedt in plaats daarvan een lichtgewichtig besluitondersteuningskader dat bestaande operationele gegevens verbindt in een praktisch financieel controleproces.
-
-Er is geen spreadsheet-expertise nodig. Open de browserversie of het Excel-werkmodel, importeer bestaande exports en begin direct met het beoordelen van operationele inzichten.
+*Let op: Deze toolkit is **niet** bedoeld om uw grootboek, QuickBooks, Xero of enterprise ERP-systemen te vervangen. Het is een gespecialiseerd besluitondersteuningskader dat uw bestaande ruwe gegevens verbindt tot een praktisch financieel controleproces.*
 
 ---
 
-## Over
+## De oorsprong: Waarom ik dit financiële besturingssysteem heb gebouwd
 
-Ik bouw lichtgewichte besluitondersteuningstools via Excel en browser voor operationele omgevingen waar te veel bewegende delen betrouwbare beslissingen moeilijk maken.
+Veel groeiende Shopify-merken geloven dat ze financiële zichtbaarheid hebben omdat ze boekhoudsoftware, banksaldi en verkoopdashboards hebben. In werkelijkheid beantwoorden deze systemen volledig verschillende vragen:
 
-Elk werkmodel begint met één praktische vraag:
-> "Welke informatie moet op één plek bestaan voordat de volgende beslissing met vertrouwen genomen kan worden?" 
+*   **Boekhouding** legt uit wat er al is gebeurd (historisch).
+*   **Shopify** legt uit wat klanten hebben gekocht (omzet).
+*   **Banken** laten zien waar cash momenteel ligt (statische liquiditeit).
+*   **Advertentieplatformen** leggen uit waar geld is uitgegeven (klantenwerving).
+
+Geen van hen legt onafhankelijk uit of de operationele beslissingen van vandaag over zes weken een werkkapitaalprobleem zullen veroorzaken. Die analytische leemte veroorzaakt dure fouten. Voorraad wordt besteld omdat de verkopen sterk lijken. Advertentiebudgetten stijgen omdat de omzet groeit. Leveranciersbetalingen worden goedgekeurd omdat het huidige banksaldo gezond lijkt. 
+
+Pas later ontdekt het bedrijf dat settlementtiming, voorraadaanbetalingen, advertentiekosten en openstaande facturen overlappen en een enorm liquiditeitstekort veroorzaken. 
+
+Ik heb dit werkmodel gebouwd als een herbruikbaar financieel redeneermodel in plaats van nog een statisch rapportagespreadsheet.
+
+**Vóór het gebruik van de toolkit:**
+Een Shopify-winkel rapporteert $480,000 aan maandelijkse omzet. Het management keurt een voorraadaankoop van $150,000 goed. Drie weken later overlappen advertentiefacturen, leveranciersaanbetalingen en vertraagde Shopify-uitbetalingen onverwachts, waardoor het beschikbare cash onder de loonvereisten zakt.
+
+**Na het gebruik van de toolkit:**
+Dezelfde aankoop wordt vóór goedkeuring in de Inventory Impact Simulator ingevoerd. De toolkit prognosticeert onmiddellijk dat het cash in week 7 onder de geconfigureerde veiligheidsreserve zakt. Het management stelt een deel van de aankoop twee weken uit en onderhandelt over herziene Net-30-betalingsvoorwaarden met de leverancier. De omzet blijft ongewijzigd. Het cashrisico verdwijnt.
+
+**Het doel is niet betere rapportage. Het doel is betere beslissingen voordat cashflowproblemen operationele noodgevallen worden.**
+
+---
+
+## Over de maker
+
+Ik bouw lichtgewicht Excel- en browsergebaseerde besluitondersteuningstools voor operationele omgevingen waar te veel bewegende delen betrouwbare beslissingen moeilijk maken. Elk sjabloon en elke toolkit begint met één fundamentele vraag: 
+
+> *„Welke informatie moet op één gecentraliseerde plek bestaan voordat de volgende strategische beslissing met vertrouwen kan worden genomen?”*
+
 ---
 
 ## Technische details
@@ -191,7 +145,7 @@ Elk werkmodel begint met één praktische vraag:
 
 ## Architectuur van het werkmodel
 
-Het werkmodel volgt een strikte drielagenarchitectuur die ruwe gegevens, analytische logica en executive-rapportage scheidt. Elk blad heeft één verantwoordelijkheid, wat het werkmodel makkelijker maakt om [...]
+Het werkmodel volgt een strikte drielagenarchitectuur die ruwe gegevens, analytische logica en executive-rapportage scheidt. Elk blad heeft één verantwoordelijkheid, wat het werkmodel eenvoudiger te controleren maakt,[...]
 
 ```
                 ┌────────────────────────────┐
@@ -232,7 +186,7 @@ Het werkmodel volgt een strikte drielagenarchitectuur die ruwe gegevens, analyti
 | Accounting_Data | Grootboekposten en facturen | Input |
 | Inventory_Purchases | Inkooporders en betalingsschema's | Input |
 | Advertising_Spend | Marketingkosten per datum en platform | Input |
-| Reconciliation_Engine | Systeemoverstijgende matching van uitbetalingen | Analysis |
+| Reconciliation_Engine | Systeemoverstijgende settlementmatching | Analysis |
 | Payment_Review | Detectie van dubbele betalingen | Analysis |
 | Cash_Flow_Forecast | Rollende liquiditeitsprognose | Analysis |
 | Inventory_Impact_Simulator | Strestesten van inkopen | Analysis |
@@ -264,9 +218,9 @@ Parameters -------│
        Financial Dashboard
 ```
 
-Het werkmodel verhindert bewust directe rapportering vanuit ruwe gegevens.
+Het werkmodel verhindert bewust directe rapportage vanuit ruwe gegevens.
 
-Elke KPI komt uit gevalideerde analysebladen in plaats van geïmporteerde tabellen.
+Elke KPI komt uit gevalideerde analysebladen in plaats van uit geïmporteerde tabellen.
 
 Dit vermindert verborgen rekenfouten en maakt het analyseproces reproduceerbaar.
 
@@ -310,7 +264,7 @@ Executive Dashboard
 
 Elke berekening hangt af van gestructureerde Excel-tabellen in plaats van statische bereiken.
 
-Naarmate de brongegevens groeien, breiden de berekeningen automatisch uit zonder formules te kopiëren.
+Naarmate de brongegevens groeien, breiden de berekeningen zich automatisch uit zonder formules te kopiëren.
 
 ---
 
@@ -326,13 +280,13 @@ Het management keurt een voorraadorder van $180,000 goed omdat de bank momenteel
 
 ---
 
-### De verborgen aanname
+### Verborgen aanname
 
 Het banksaldo negeert:
 
 - leveranciersaanbetalingen die volgende week vervallen
 - advertentiefacturen
-- vertraagde Shopify-uitbetalingen
+- vertraagde Shopify-settlements
 - openstaande operationele kosten
 
 Het getal is correct.
@@ -341,7 +295,7 @@ De beslissing niet.
 
 ---
 
-### De onjuiste aanbeveling
+### Onjuiste aanbeveling
 
 ```
 Cash Today
@@ -365,16 +319,16 @@ De aankoop lijkt betaalbaar.
 
 ---
 
-### Waarom dit redeneert faalt
+### Waarom deze redenering faalt
 
-De timing van cash is belangrijker dan het saldo.
+De timing van cash is belangrijker dan het cashsaldo.
 
 Drie weken later:
 
-- resterend leverancierssaldo
+- resterende leveranciersbetaling
 - advertentiefacturen
 - lonen
-- vertraagde uitbetalingstiming
+- vertraagde settlementtiming
 
 vinden allemaal gelijktijdig plaats.
 
@@ -382,11 +336,11 @@ Het werkkapitaal wordt negatief ondanks het gezonde saldo van vandaag.
 
 ---
 
-### De juiste aanpak
+### Juiste aanpak
 
-Het werkmodel projecteert toekomstige liquiditeit met:
+Het werkmodel projecteert toekomstige liquiditeit met behulp van:
 
-- uitbetalingstiming
+- settlementtiming
 - inkoopschema
 - advertentie-uitgaven
 - historische cashbewegingen
@@ -396,7 +350,7 @@ De beslissingskwaliteit verbetert omdat toekomstige verplichtingen zichtbaar wor
 
 ---
 
-### De juiste beslissing
+### Juiste beslissing
 
 ```
 Week 1
@@ -443,13 +397,13 @@ Parameters[Param_Value],
 )
 ```
 
-Deze formule evalueert de geprojecteerde liquiditeit vóór zowel het aanbetalings- als het eindbetalingsmoment.
+Deze formule evalueert de geprojecteerde liquiditeit vóór zowel het aanbetaling- als het eindbetalingsmoment.
 
 </details>
 
 ---
 
-## Valkuil 2 — Elke Shopify-uitbetaling als succesvol geïnd behandelen
+## Valkuil 2 — Elke Shopify-settlement als succesvol geïnd behandelen
 
 ### De beslissing
 
@@ -463,7 +417,7 @@ Geen van beide aannames wordt geverifieerd.
 
 ---
 
-### De verborgen aanname
+### Verborgen aanname
 
 Orders
 
@@ -471,13 +425,13 @@ Orders
 
 Cash Received
 
-Vertragingen in uitbetalingen, gedeeltelijke betalingen, aanpassingen door betaalverwerkers, terugbetalingen en bankproblemen creëren regelmatig verschillen.
+Vertragingen in settlements, gedeeltelijke betalingen, aanpassingen door betaalverwerkers, terugbetalingen en bankproblemen creëren regelmatig verschillen.
 
 Zonder geautomatiseerde reconciliatie blijven deze uitzonderingen verborgen.
 
 ---
 
-### De onjuiste aanbeveling
+### Onjuiste aanbeveling
 
 ```
 Shopify Revenue
@@ -495,19 +449,19 @@ Cash Collection Complete
 
 ---
 
-### Waarom dit redeneert faalt
+### Waarom deze redenering faalt
 
-Meerdere uitbetalingen kunnen bij één bestelling horen.
+Meerdere settlements kunnen bij één bestelling horen.
 
-Eén uitbetaling kan meerdere bestellingen bevatten.
+Eén settlement kan meerdere bestellingen bevatten.
 
-De timing van terugbetalingen kan afwijken van de uitbetalingstiming.
+De timing van terugbetalingen kan afwijken van de settlementtiming.
 
 Handmatige matching wordt snel onbetrouwbaar.
 
 ---
 
-### De juiste aanpak
+### Juiste aanpak
 
 Het werkmodel bouwt een unieke bestellijst en berekent onafhankelijk:
 
@@ -520,13 +474,13 @@ Alleen gereconcilieerde transacties dragen bij aan de executive-rapportage.
 
 ---
 
-### De juiste beslissing
+### Juiste beslissing
 
 | Bestelling | Shopify | Bank | Resultaat |
 |---------|----------|---------|---------|
 | 10541 | $245 | $245 | Match |
 | 10542 | $310 | $280 | Verschil |
-| 10543 | $180 | $0 | Ontbrekende uitbetaling |
+| 10543 | $180 | $0 | Ontbrekende settlement |
 
 De financiële afdeling onderzoekt alleen de gemarkeerde uitzonderingen in plaats van elke transactie te beoordelen.
 
@@ -562,9 +516,9 @@ Deze formules creëren een volledig dynamische reconciliatie-engine zonder gekop
 
 ---
 
-## Voorbeeldscenario (deel 1)
+## Voorbeeldscenario (Deel 1)
 
-Stel u een groeiend Shopify-merk voor dat ongeveer **USD 520.000 aan maandelijkse omzet** genereert.
+Stel u een groeiend Shopify-merk voor dat ongeveer **USD 520,000 aan maandelijkse omzet** genereert.
 
 De huidige bedrijfsomstandigheden omvatten:
 
@@ -576,45 +530,45 @@ De huidige bedrijfsomstandigheden omvatten:
 | Resterende leveranciersbetaling | 70% |
 | Wekelijkse advertentie-uitgaven | $34,000 |
 | Veiligheidsreserve cash | $100,000 |
-| Gemiddelde Shopify-uitbetalingstijd | 4 dagen |
+| Gemiddelde Shopify-settlementvertraging | 4 dagen |
 
-Op het eerste oog concludeert het management dat er voldoende liquiditeit is om de inkooporder direct goed te keuren.
+Op het eerste gezicht concludeert het management dat er voldoende liquiditeit is om de inkooporder direct goed te keuren.
 
 De Inventory Impact Simulator tekent een ander beeld.
 
-De vereiste leveranciersaanbetaling reduceert direct beschikbaar cash.
+De vereiste leveranciersaanbetaling vermindert het direct beschikbare cash.
 
-In de volgende weken lopen de advertentieverplichtingen door, terwijl het resterende leverancierssaldo vervalt voordat alle Shopify-uitbetalingen zijn verwerkt.
+In de volgende weken lopen de advertentieverplichtingen door, terwijl het resterende leverancierssaldo vervalt voordat alle Shopify-settlements zijn verwerkt.
 
-In plaats van alleen het saldo van vandaag te evalueren, modelleert het werkmodel de timing van elke grote cashinstroom en -uitstroom over de komende twaalf weken.
+In plaats van alleen het cashsaldo van vandaag te evalueren, modelleert het werkmodel de timing van elke grote cashinstroom en -uitstroom over de komende twaalf weken.
 
-De resulterende prognose toont aan dat beschikbaar cash tijdens week 7 kort onder de geconfigureerde bedrijfsreserve valt, hoewel het kwartal eindigt met een positief cashsaldo.
+De resulterende prognose toont aan dat beschikbaar cash tijdens week 7 kort onder de geconfigureerde bedrijfsreserve zakt, hoewel het kwartaal eindigt met een positief cashsaldo.
 
 In plaats van de aankoop volledig af te stellen, kan het management operationele alternatieven verkennen:
 
 - herziene betalingsvoorwaarden met de leverancier onderhandelen,
 - de inkooporder in twee zendingen splitsen,
 - een deel van de advertentiecampagne uitstellen,
-- of de tweede productierun uitstellen tot de uitbetalingen binnenkomen.
+- of de tweede productierun uitstellen tot de settlementontvangsten binnenkomen.
 
-De aanbeveling is daarom niet simpelweg **„kopen“** of **„niet kopen.“**
+De aanbeveling is daarom niet simpelweg **„kopen”** of **„niet kopen”**.
 
-Het wordt **„kopen onder betalingsvoorwaarden die de minimale operationele liquiditeit behouden.“**
+Het wordt **„kopen onder betalingsvoorwaarden die de minimale operationele liquiditeit behouden”**.
 
 Dat onderscheid is precies waar operationele besluitondersteuning waarde creëert.
 
 ---
 
-## Voorbeeldscenario (deel 2)
+## Voorbeeldscenario (Deel 2)
 
 <details>
-<summary>Voorbeeldscenario (deel 2) — details voor technische reviewers</summary>
+<summary>Voorbeeldscenario (Deel 2) — details voor technische reviewers</summary>
 
 De CFO beoordeelt de prognose voordat de leveranciersbetaling wordt goedgekeurd.
 
 De geprojecteerde cashbeweging ziet er nu als volgt uit:
 
-| Week | Beginliquiditeit | Instroom | Uitstroom | Eindliquiditeit |
+| Week | Begin-Cash | Cash In | Cash Uit | Eind-Cash |
 |------|-------------:|---------:|----------:|------------:|
 | Week 1 | $468,000 | $92,400 | $97,600 | $462,800 |
 | Week 2 | $462,800 | $118,300 | $121,900 | $459,200 |
@@ -629,7 +583,7 @@ De geprojecteerde cashbeweging ziet er nu als volgt uit:
 | Week 11 | $230,100 | $156,300 | $121,800 | $264,600 |
 | Week 12 | $264,600 | $170,500 | $135,700 | $299,400 |
 
-Het dashboard markeert week 7 direct omdat de geprojecteerde liquiditeit onder de geconfigureerde **veiligheidsreserve van $100.000** valt.
+Het dashboard markeert week 7 direct omdat de geprojecteerde liquiditeit onder de geconfigureerde **veiligheidsreserve cash van $100,000** zakt.
 
 In plaats van het probleem te ontdekken nadat betalingen al zijn vrijgegeven, identificeert de financiële afdeling de beperking zes weken vooraf.
 
@@ -637,9 +591,9 @@ Het management evalueert drie alternatieven.
 
 | Alternatief | Prognoseresultaat |
 |-------------|----------------|
-| Aankoop direct goedkeuren | Liquiditeit van week 7 valt onder de reserve |
+| Aankoop direct goedkeuren | Liquiditeit in week 7 zakt onder de reserve |
 | Resterende leveranciersbetaling 14 dagen uitstellen | Cashreserve blijft boven de drempel |
-| Aankoop in twee productiepartijen splitsen | Liquiditeit blijft stabiel terwijl voorraadrisico afneemt |
+| Aankoop in twee productiepartijen splitsen | Liquiditeit blijft stabiel terwijl het voorraadrisico afneemt |
 
 De tweede optie biedt de beste balans tussen operationele continuïteit en financiële veiligheid.
 
@@ -661,7 +615,7 @@ Het doel is om beslissingsflexibiliteit te behouden door toekomstige liquiditeit
 | Formule | Doel |
 |---------|----------|
 | `XLOOKUP()` | Configureerbare bedrijfsparameters ophalen. |
-| Named Excel Tables | Configuratie centraliseren zonder hardcoded waarden. |
+| Named Excel Tables | Configuratie centraliseren zonder gehardcodeerde waarden. |
 
 Typische parameters omvatten:
 
@@ -685,7 +639,7 @@ Shopify_Data[Order ID],
 Shopify_Data[Order ID]<>""))
 ```
 
-Creëert een continu uitbreidende reconcileringsindex.
+Creëert een continu uitbreidende reconciliatie-index.
 
 ---
 
@@ -702,7 +656,7 @@ Shopify_Data[Net Payment],
 0)))
 ```
 
-Geeft Shopify-uitbetalingswaarden terug.
+Geeft Shopify-settlementwaarden terug.
 
 ---
 
@@ -718,7 +672,7 @@ Bank_Transactions[Reference ID],
 order_id)))
 ```
 
-Aggregeert meerdere uitbetalingen die bij één bestelling horen.
+Aggregeert meerdere settlements die bij één bestelling horen.
 
 ---
 
@@ -728,7 +682,7 @@ Aggregeert meerdere uitbetalingen die bij één bestelling horen.
 =B2#-C2#
 ```
 
-Berekent reconcileringsverschillen.
+Berekent reconciliatieverschillen.
 
 ---
 
@@ -747,7 +701,7 @@ TRUE,
 "Variance")))
 ```
 
-Classificeert de reconcileringsstatus automatisch.
+Classificeert de reconciliatiestatus automatisch.
 
 </details>
 
@@ -766,10 +720,10 @@ Doel:
 
 Detecteert automatisch:
 
-- dubbele facturen
-- dubbele leveranciersbetalingen
-- verdachte betalingsrecords
-- facturen die handmatige goedkeuring vereisen
+- Dubbele facturen
+- Dubbele leveranciersbetalingen
+- Verdachte betalingsrecords
+- Facturen die handmatige goedkeuring vereisen
 
 Primaire output:
 
@@ -817,7 +771,7 @@ Advertising_Spend[Date],
 
 Doel
 
-- Rollende twaalfweeksprognose
+- Rollende twaalfwekenprognose
 - Verschuift automatisch elke week
 - Geen handmatig tijdlijnonderhoud
 
@@ -842,13 +796,13 @@ IFS(...)
 
 Bedrijfslogica
 
-Evalueer:
+Evalueren:
 
-- aanbetalingsbetaling
-- eindlevering leveranciersbetaling
-- historische cashbeweging
-- veiligheidsreserve
-- liquiditeit na beide betalingsmomenten
+- Aanbetalingsbetaling
+- Eindbetaling aan de leverancier
+- Historische cashbeweging
+- Veiligheidsreserve
+- Liquiditeit na beide betalingsmomenten
 
 Output
 
@@ -878,17 +832,44 @@ Output
 | Transaction Date | Geldige Excel-datum | Uitgesloten van prognose |
 | Advertising Cost | Numerieke waarde | Wekelijkse aggregatie overgeslagen |
 | Safety Cash Reserve | Positieve numerieke parameter | Standaardwaarde toegepast bij ontbreken |
-| Reference ID | Consistent tekstformaat | Verhoogt het matchingverschil |
-
-</details>
+| Reference ID | Consistent tekstformaat | Matchingverschil neemt toe |
 
 </details>
 
 ---
 
+</details>
+
+---
+
+## De bedrijfslogica & methodologie
+
+Deze toolkit is niet zomaar een verzameling spreadsheets; hij is gebouwd op bewezen financiële modelleringsmethodologieën die specifiek zijn ontworpen om de structurele kwetsbaarheden van het direct-to-consumer bedrijfsmodel aan te pakken. 
+
+Hier is de onderliggende bedrijfslogica en hoe het systeem kritieke liquiditeitsuitdagingen oplost:
+
+### 1. Het kernprobleem: de disconnectie in de Cash Conversion Cycle (CCC)
+In het Shopify-ecosysteem is de **Cash Conversion Cycle** van nature geïnverteerd. Merken betalen fabricage en vracht vooraf, geven agressief uit aan performance marketing (dagelijkse cashuitstromen) en wachten vervolgens tot betalingsgateways (Stripe, PayPal, Shopify Payments) de gelden vrijgeven. 
+
+Traditionele **accrual accounting** meet winstgevendheid maar negeert de timing van deze cashbewegingen. Deze toolkit verschuift de executive focus van historische P&L-winstgevendheid naar **vooruitkijkend liquiditeitsbeheer op cashbasis**, zodat het bedrijf zijn eigen groei overleeft.
+
+### 2. Methodologie: 3-weg merchant-reconciliatie
+*   **De methode:** Het systeem gebruikt een deterministisch matchingkader (het **3-weg-matchingprincipe** uit enterprise AP/AR-afdelingen) om drie verschillende datasilo's te kruisverwijzen: brutoverkopen (Shopify-dashboard), onderweg gelden (gateway-vereffeningsrekeningen) en geseald cash (bankafschriften).
+*   **De zakelijke impact (waarom het ertoe doet):** Het elimineert het "lekkende emmer"-syndroom. Door vereffingsrekeningdiscrepanties automatisch te isoleren, kunnen financiële teams onmiddellijk vertraagde uitbetalingen, platforminhoudingen, chargeback-anomalieën of boekhoudkundige misclassificaties identificeren die de werkelijke operationele cashpositie van het bedrijf vertekenen.
+
+### 3. Methodologie: rollende zero-based cashflowprognose
+*   **De methode:** In tegenstelling tot statische jaarbudgetten die in nauwkeurigheid afnemen, gebruikt dit kader een **rollende 12-weken liquiditeitsprognose**. Het bouwt de cashprojectie in realtime vanaf nul opnieuw op, met actieve operationele invoer—openstaande inkooporders (PO's), actieve ROAS-/advertentie burn rates en openstaande leveranciersaanbetalingen—in plaats van te vertrouwen op historische gemiddelden.
+*   **De zakelijke impact (waarom het ertoe doet):** Het overbrugt de kloof tussen boekhouding en realiteit. Deze methodologie beantwoordt de ultieme overlevingsvraag: *„Hebben we in week 6 genoeg cash om lonen te betalen en leveranciers te voldoen?”* Het transformeert cashflowprognose van een reactieve rapportageoefening aan het einde van de maand in een proactieve dagelijkse operationele vangrail.
+
+### 4. Methodologie: scenario-gebaseerde werkkapitaaloptimalisatie
+*   **De methode:** De toolkit bevat een dynamische stresstestmodule voor voorraad- en supply chain-financiering. Het modelleert de cashimpact van verschillende betalingsvoorwaarden (bijv. 30% vooraf aanbetaling vs. 70% Net-30/Net-60 op cognossement) tegen de geprojecteerde omzetsnelheid.
+*   **De zakelijke impact (waarom het ertoe doet):** Het voorkomt overleveraging en voorraadgeïnduceerd faillissement. Door de exacte tijdlijn van toekomstige cashcrises te kwantificeren, stelt het inkoopmanagers en CFO's in staat leveranciersbetalingsvoorwaarden te onderhandelen op basis van wiskundige liquiditeitsbeperkingen, waardoor de **werkkapitaalefficiëntie** van het merk direct wordt geoptimaliseerd.
+
+---
+
 ## Andere tools in deze serie
 
-Dit werkmodel is onderdeel van een groeiende collectie lichtgewichte operationele besluitondersteuningstools.
+Dit werkmodel is onderdeel van een groeiende collectie lichtgewicht operationele besluitondersteuningstools.
 
 Voorbeelden zijn onder meer:
 
