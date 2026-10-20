@@ -145,7 +145,7 @@ Ik bouw lichtgewicht Excel- en browsergebaseerde besluitondersteuningstools voor
 
 ## Architectuur van het werkmodel
 
-Het werkmodel volgt een strikte drielagenarchitectuur die ruwe gegevens, analytische logica en executive-rapportage scheidt. Elk blad heeft één verantwoordelijkheid, wat het werkmodel eenvoudiger te controleren maakt,[...]
+Het werkmodel volgt een strikte drielagenarchitectuur die ruwe gegevens, analytische logica en executive-rapportage scheidt. Elk blad heeft één verantwoordelijkheid, wat het werkmodel eenvoudiger te controleren, uit te breiden en over te dragen maakt.
 
 ```
                 ┌────────────────────────────┐
