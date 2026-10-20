@@ -145,7 +145,7 @@ Construyo herramientas ligeras de soporte de decisiones con Excel y en el navega
 
 ## Arquitectura del libro
 
-El libro sigue una arquitectura estricta de tres capas que separa los datos brutos, la lógica analítica y los informes ejecutivos. Cada hoja tiene una única responsabilidad, lo que hace que el libro sea más fácil de auditar,[...]
+El libro sigue una arquitectura estricta de tres capas que separa los datos brutos, la lógica analítica y los informes ejecutivos. Cada hoja tiene una única responsabilidad, lo que hace que el libro sea más fácil de auditar, ampliar y entregar.
 
 ```
                 ┌────────────────────────────┐
