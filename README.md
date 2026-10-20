@@ -145,7 +145,7 @@ I build lightweight Excel and browser-based decision-support tools for operation
 
 ## Workbook Architecture
 
-The workbook follows a strict three-layer architecture that separates raw data, analytical logic, and executive reporting. Every sheet has a single responsibility, making the workbook easier to audit,[...]
+The workbook follows a strict three-layer architecture that separates raw data, analytical logic, and executive reporting. Every sheet has a single responsibility, making the workbook easier to audit, extend, and hand over.
 
 ```
                 ┌────────────────────────────┐
