@@ -119,7 +119,7 @@ Erst später entdeckt das Unternehmen, dass sich Abrechnungstiming, Inventaranza
 Ich habe diese Arbeitsmappe als wiederverwendbares finanzielles Denkmodell gebaut statt als weiteres statisches Berichtsblatt.
 
 **Vor der Verwendung des Toolkits:**
-Ein Shopify-Shop weist monatliche Einnahmen von $480,000 aus. Das Management genehmigt einen Inventareinkauf über $150,000. Drei Wochen später überlagern sich Werberechnungen, Lieferantenanzahlungen und verzögerte Shopify-Auszahlungen unerwartet und senken das verfügbare Cash unter die Lohnanforderungen.
+Ein Shopify-Shop weist monatliche Einnahmen von $480.000 aus. Das Management genehmigt einen Inventareinkauf über $150.000. Drei Wochen später überlagern sich Werberechnungen, Lieferantenanzahlungen und verzögerte Shopify-Auszahlungen unerwartet und senken das verfügbare Cash unter die Lohnanforderungen.
 
 **Nach der Verwendung des Toolkits:**
 Derselbe Einkauf wird vor der Freigabe in den Inventory Impact Simulator eingegeben. Das Toolkit prognostiziert sofort, dass das Cash in Woche 7 unter die konfigurierte Sicherheitsreserve fällt. Das Management verzögert einen Teil des Einkaufs um zwei Wochen und verhandelt überarbeitete Net-30-Zahlungsbedingungen mit dem Lieferanten. Der Umsatz bleibt unverändert. Das Cash-Risiko verschwindet.
@@ -276,7 +276,7 @@ Mit wachsenden Quelldaten erweitern sich die Berechnungen automatisch, ohne Form
 
 ### Die Entscheidung
 
-Das Management genehmigt einen Inventarauftrag über $180,000, weil die Bank aktuell $420,000 enthält.
+Das Management genehmigt einen Inventarauftrag über $180.000, weil die Bank aktuell $420.000 enthält.
 
 ---
 
@@ -518,18 +518,18 @@ Diese Formeln schaffen eine vollständig dynamische Abstimmungs-Engine ohne kopi
 
 ## Beispielszenario (Teil 1)
 
-Stellen Sie sich eine wachsende Shopify-Marke vor, die etwa **USD 520,000 im monatlichen Umsatz** erwirtschaftet.
+Stellen Sie sich eine wachsende Shopify-Marke vor, die etwa **USD 520.000 im monatlichen Umsatz** erwirtschaftet.
 
 Zu den aktuellen Betriebsbedingungen gehören:
 
 | Posten | Wert |
 |-------|---------:|
-| Aktueller Bankkontostand | $468,000 |
-| Offene Bestellung | $210,000 |
+| Aktueller Bankkontostand | $468.000 |
+| Offene Bestellung | $210.000 |
 | Erforderliche Anzahlung | 30% |
 | Restzahlung an den Lieferanten | 70% |
-| Wöchentliche Werbeausgaben | $34,000 |
-| Sicherheits-Cash-Reserve | $100,000 |
+| Wöchentliche Werbeausgaben | $34.000 |
+| Sicherheits-Cash-Reserve | $100.000 |
 | Durchschnittliche Shopify-Abrechnungsverzögerung | 4 Tage |
 
 Auf den ersten Blick kommt das Management zu dem Schluss, dass ausreichend Liquidität besteht, um die Bestellung sofort freizugeben.
@@ -570,20 +570,20 @@ Die projizierte Cash-Bewegung sieht nun so aus:
 
 | Woche | Anfangs-Cash | Cash-Zufluss | Cash-Abfluss | End-Cash |
 |------|-------------:|---------:|----------:|------------:|
-| Woche 1 | $468,000 | $92,400 | $97,600 | $462,800 |
-| Woche 2 | $462,800 | $118,300 | $121,900 | $459,200 |
-| Woche 3 | $459,200 | $86,700 | $158,500 | $387,400 |
-| Woche 4 | $387,400 | $95,800 | $144,600 | $338,600 |
-| Woche 5 | $338,600 | $101,400 | $129,700 | $310,300 |
-| Woche 6 | $310,300 | $84,900 | $176,200 | $219,000 |
-| Woche 7 | $219,000 | $73,600 | $196,800 | **$95,800** |
-| Woche 8 | $95,800 | $168,700 | $118,500 | $146,000 |
-| Woche 9 | $146,000 | $179,100 | $136,700 | $188,400 |
-| Woche 10 | $188,400 | $161,200 | $119,500 | $230,100 |
-| Woche 11 | $230,100 | $156,300 | $121,800 | $264,600 |
-| Woche 12 | $264,600 | $170,500 | $135,700 | $299,400 |
+| Woche 1 | $468.000 | $92.400 | $97.600 | $462.800 |
+| Woche 2 | $462.800 | $118.300 | $121.900 | $459.200 |
+| Woche 3 | $459.200 | $86.700 | $158.500 | $387.400 |
+| Woche 4 | $387.400 | $95.800 | $144.600 | $338.600 |
+| Woche 5 | $338.600 | $101.400 | $129.700 | $310.300 |
+| Woche 6 | $310.300 | $84.900 | $176.200 | $219.000 |
+| Woche 7 | $219.000 | $73.600 | $196.800 | **$95.800** |
+| Woche 8 | $95.800 | $168.700 | $118.500 | $146.000 |
+| Woche 9 | $146.000 | $179.100 | $136.700 | $188.400 |
+| Woche 10 | $188.400 | $161.200 | $119.500 | $230.100 |
+| Woche 11 | $230.100 | $156.300 | $121.800 | $264.600 |
+| Woche 12 | $264.600 | $170.500 | $135.700 | $299.400 |
 
-Das Dashboard hebt Woche 7 sofort hervor, weil die projizierte Liquidität unter die konfigurierte **Sicherheits-Cash-Reserve von $100,000** fällt.
+Das Dashboard hebt Woche 7 sofort hervor, weil die projizierte Liquidität unter die konfigurierte **Sicherheits-Cash-Reserve von $100.000** fällt.
 
 Anstatt das Problem erst zu entdecken, nachdem Zahlungen bereits freigegeben wurden, identifiziert die Finanzabteilung die Einschränkung sechs Wochen im Voraus.
 
