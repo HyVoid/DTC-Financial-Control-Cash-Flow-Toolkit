@@ -119,7 +119,7 @@ Ce n'est que plus tard que l'entreprise découvre que le calendrier des règleme
 J'ai construit ce classeur comme un modèle de raisonnement financier réutilisable plutôt que comme un simple tableur de reporting statique de plus.
 
 **Avant d'utiliser le toolkit :**
-Une boutique Shopify déclare $480,000 de revenus mensuels. La direction approuve un achat de stock de $150,000. Trois semaines plus tard, les factures publicitaires, les acomptes fournisseurs et les versements Shopify retardés se chevauchent de manière inattendue, réduisant la trésorerie disponible en dessous des besoins de paie.
+Une boutique Shopify déclare $480 000 de revenus mensuels. La direction approuve un achat de stock de $150 000. Trois semaines plus tard, les factures publicitaires, les acomptes fournisseurs et les versements Shopify retardés se chevauchent de manière inattendue, réduisant la trésorerie disponible en dessous des besoins de paie.
 
 **Après avoir utilisé le toolkit :**
 Le même achat est saisi dans l'Inventory Impact Simulator avant approbation. Le toolkit prévoit immédiatement que la trésorerie de la semaine 7 tombera sous la réserve de sécurité configurée. La direction retarde une partie de l'achat de deux semaines et négocie des conditions de paiement Net-30 révisées avec le fournisseur. Le chiffre d'affaires reste inchangé. Le risque de trésorerie disparaît.
@@ -276,7 +276,7 @@ Chaque calcul dépend de tableaux Excel structurés plutôt que de plages statiq
 
 ### La décision
 
-La direction approuve une commande de stock de $180,000 parce que la banque détient actuellement $420,000.
+La direction approuve une commande de stock de $180 000 parce que la banque détient actuellement $420 000.
 
 ---
 
@@ -518,18 +518,18 @@ Ces formules créent un moteur de rapprochement entièrement dynamique sans aucu
 
 ## Scénario d'exemple (Partie 1)
 
-Imaginez une marque Shopify en croissance générant environ **USD 520,000 de chiffre d'affaires mensuel**.
+Imaginez une marque Shopify en croissance générant environ **USD 520 000 de chiffre d'affaires mensuel**.
 
 Les conditions d'exploitation actuelles comprennent :
 
 | Élément | Valeur |
 |-------|---------:|
-| Solde bancaire actuel | $468,000 |
-| Bon de commande en cours | $210,000 |
+| Solde bancaire actuel | $468 000 |
+| Bon de commande en cours | $210 000 |
 | Acompte requis | 30% |
 | Solde fournisseur restant | 70% |
-| Dépenses publicitaires hebdomadaires | $34,000 |
-| Réserve de sécurité de trésorerie | $100,000 |
+| Dépenses publicitaires hebdomadaires | $34 000 |
+| Réserve de sécurité de trésorerie | $100 000 |
 | Délai moyen de règlement Shopify | 4 jours |
 
 À première vue, la direction conclut que la liquidité est suffisante pour approuver immédiatement le bon de commande.
@@ -570,20 +570,20 @@ Le mouvement de trésorerie projeté se présente désormais ainsi :
 
 | Semaine | Trésorerie d'ouverture | Entrées | Sorties | Trésorerie de clôture |
 |------|-------------:|---------:|----------:|------------:|
-| Semaine 1 | $468,000 | $92,400 | $97,600 | $462,800 |
-| Semaine 2 | $462,800 | $118,300 | $121,900 | $459,200 |
-| Semaine 3 | $459,200 | $86,700 | $158,500 | $387,400 |
-| Semaine 4 | $387,400 | $95,800 | $144,600 | $338,600 |
-| Semaine 5 | $338,600 | $101,400 | $129,700 | $310,300 |
-| Semaine 6 | $310,300 | $84,900 | $176,200 | $219,000 |
-| Semaine 7 | $219,000 | $73,600 | $196,800 | **$95,800** |
-| Semaine 8 | $95,800 | $168,700 | $118,500 | $146,000 |
-| Semaine 9 | $146,000 | $179,100 | $136,700 | $188,400 |
-| Semaine 10 | $188,400 | $161,200 | $119,500 | $230,100 |
-| Semaine 11 | $230,100 | $156,300 | $121,800 | $264,600 |
-| Semaine 12 | $264,600 | $170,500 | $135,700 | $299,400 |
+| Semaine 1 | $468 000 | $92 400 | $97 600 | $462 800 |
+| Semaine 2 | $462 800 | $118 300 | $121 900 | $459 200 |
+| Semaine 3 | $459 200 | $86 700 | $158 500 | $387 400 |
+| Semaine 4 | $387 400 | $95 800 | $144 600 | $338 600 |
+| Semaine 5 | $338 600 | $101 400 | $129 700 | $310 300 |
+| Semaine 6 | $310 300 | $84 900 | $176 200 | $219 000 |
+| Semaine 7 | $219 000 | $73 600 | $196 800 | **$95 800** |
+| Semaine 8 | $95 800 | $168 700 | $118 500 | $146 000 |
+| Semaine 9 | $146 000 | $179 100 | $136 700 | $188 400 |
+| Semaine 10 | $188 400 | $161 200 | $119 500 | $230 100 |
+| Semaine 11 | $230 100 | $156 300 | $121 800 | $264 600 |
+| Semaine 12 | $264 600 | $170 500 | $135 700 | $299 400 |
 
-Le tableau de bord signale immédiatement la semaine 7 parce que la liquidité projetée tombe sous la **réserve de sécurité de trésorerie de $100,000** configurée.
+Le tableau de bord signale immédiatement la semaine 7 parce que la liquidité projetée tombe sous la **réserve de sécurité de trésorerie de $100 000** configurée.
 
 Plutôt que de découvrir le problème après que les paiements ont déjà été libérés, la finance identifie la contrainte six semaines à l'avance.
 
