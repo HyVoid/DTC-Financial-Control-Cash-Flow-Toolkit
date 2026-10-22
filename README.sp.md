@@ -119,7 +119,7 @@ Solo más tarde descubre la empresa que el calendario de liquidaciones, los dep�
 Construí este libro como un modelo de razonamiento financiero reutilizable en lugar de otra hoja de cálculo estática de informes.
 
 **Antes de usar el toolkit:**
-Una tienda Shopify reporta $480,000 de ingresos mensuales. La dirección aprueba una compra de inventario de $150,000. Tres semanas después, las facturas publicitarias, los depósitos a proveedores y las liquidaciones de Shopify retrasadas se solapan inesperadamente, reduciendo la caja disponible por debajo de las necesidades de nómina.
+Una tienda Shopify reporta $480.000 de ingresos mensuales. La dirección aprueba una compra de inventario de $150.000. Tres semanas después, las facturas publicitarias, los depósitos a proveedores y las liquidaciones de Shopify retrasadas se solapan inesperadamente, reduciendo la caja disponible por debajo de las necesidades de nómina.
 
 **Después de usar el toolkit:**
 La misma compra se introduce en el Inventory Impact Simulator antes de la aprobación. El toolkit prevé inmediatamente que la caja de la semana 7 caerá por debajo de la reserva de seguridad configurada. La dirección retrasa parte de la compra dos semanas y negocia condiciones de pago Net-30 revisadas con el proveedor. Los ingresos permanecen sin cambios. El riesgo de caja desaparece.
@@ -276,7 +276,7 @@ A medida que crecen los datos de origen, los cálculos se expanden automáticame
 
 ### La decisión
 
-La dirección aprueba un pedido de inventario de $180,000 porque el banco contiene actualmente $420,000.
+La dirección aprueba un pedido de inventario de $180.000 porque el banco contiene actualmente $420.000.
 
 ---
 
@@ -518,18 +518,18 @@ Estas fórmulas crean un motor de conciliación completamente dinámico sin fór
 
 ## Escenario de ejemplo (Parte 1)
 
-Imagina una marca Shopify en crecimiento que genera aproximadamente **USD 520,000 de ingresos mensuales**.
+Imagina una marca Shopify en crecimiento que genera aproximadamente **USD 520.000 de ingresos mensuales**.
 
 Las condiciones operativas actuales incluyen:
 
 | Concepto | Valor |
 |-------|---------:|
-| Saldo bancario actual | $468,000 |
-| Orden de compra pendiente | $210,000 |
+| Saldo bancario actual | $468.000 |
+| Orden de compra pendiente | $210.000 |
 | Depósito requerido | 30% |
 | Pago restante al proveedor | 70% |
-| Gasto publicitario semanal | $34,000 |
-| Reserva de seguridad de caja | $100,000 |
+| Gasto publicitario semanal | $34.000 |
+| Reserva de seguridad de caja | $100.000 |
 | Retraso medio de liquidación de Shopify | 4 días |
 
 A primera vista, la dirección concluye que existe liquidez suficiente para aprobar la orden de compra de inmediato.
@@ -570,20 +570,20 @@ El movimiento de caja proyectado se ve ahora así:
 
 | Semana | Caja inicial | Entradas | Salidas | Caja final |
 |------|-------------:|---------:|----------:|------------:|
-| Semana 1 | $468,000 | $92,400 | $97,600 | $462,800 |
-| Semana 2 | $462,800 | $118,300 | $121,900 | $459,200 |
-| Semana 3 | $459,200 | $86,700 | $158,500 | $387,400 |
-| Semana 4 | $387,400 | $95,800 | $144,600 | $338,600 |
-| Semana 5 | $338,600 | $101,400 | $129,700 | $310,300 |
-| Semana 6 | $310,300 | $84,900 | $176,200 | $219,000 |
-| Semana 7 | $219,000 | $73,600 | $196,800 | **$95,800** |
-| Semana 8 | $95,800 | $168,700 | $118,500 | $146,000 |
-| Semana 9 | $146,000 | $179,100 | $136,700 | $188,400 |
-| Semana 10 | $188,400 | $161,200 | $119,500 | $230,100 |
-| Semana 11 | $230,100 | $156,300 | $121,800 | $264,600 |
-| Semana 12 | $264,600 | $170,500 | $135,700 | $299,400 |
+| Semana 1 | $468.000 | $92.400 | $97.600 | $462.800 |
+| Semana 2 | $462.800 | $118.300 | $121.900 | $459.200 |
+| Semana 3 | $459.200 | $86.700 | $158.500 | $387.400 |
+| Semana 4 | $387.400 | $95.800 | $144.600 | $338.600 |
+| Semana 5 | $338.600 | $101.400 | $129.700 | $310.300 |
+| Semana 6 | $310.300 | $84.900 | $176.200 | $219.000 |
+| Semana 7 | $219.000 | $73.600 | $196.800 | **$95.800** |
+| Semana 8 | $95.800 | $168.700 | $118.500 | $146.000 |
+| Semana 9 | $146.000 | $179.100 | $136.700 | $188.400 |
+| Semana 10 | $188.400 | $161.200 | $119.500 | $230.100 |
+| Semana 11 | $230.100 | $156.300 | $121.800 | $264.600 |
+| Semana 12 | $264.600 | $170.500 | $135.700 | $299.400 |
 
-El panel de control destaca inmediatamente la semana 7 porque la liquidez proyectada cae por debajo de la **reserva de seguridad de caja de $100,000** configurada.
+El panel de control destaca inmediatamente la semana 7 porque la liquidez proyectada cae por debajo de la **reserva de seguridad de caja de $100.000** configurada.
 
 En lugar de descubrir el problema después de que los pagos ya se han liberado, finanzas identifica la restricción con seis semanas de antelación.
 
