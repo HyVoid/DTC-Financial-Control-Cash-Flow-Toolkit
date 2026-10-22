@@ -119,7 +119,7 @@ Pas later ontdekt het bedrijf dat settlementtiming, voorraadaanbetalingen, adver
 Ik heb dit werkmodel gebouwd als een herbruikbaar financieel redeneermodel in plaats van nog een statisch rapportagespreadsheet.
 
 **Vóór het gebruik van de toolkit:**
-Een Shopify-winkel rapporteert $480,000 aan maandelijkse omzet. Het management keurt een voorraadaankoop van $150,000 goed. Drie weken later overlappen advertentiefacturen, leveranciersaanbetalingen en vertraagde Shopify-uitbetalingen onverwachts, waardoor het beschikbare cash onder de loonvereisten zakt.
+Een Shopify-winkel rapporteert $480.000 aan maandelijkse omzet. Het management keurt een voorraadaankoop van $150.000 goed. Drie weken later overlappen advertentiefacturen, leveranciersaanbetalingen en vertraagde Shopify-uitbetalingen onverwachts, waardoor het beschikbare cash onder de loonvereisten zakt.
 
 **Na het gebruik van de toolkit:**
 Dezelfde aankoop wordt vóór goedkeuring in de Inventory Impact Simulator ingevoerd. De toolkit prognosticeert onmiddellijk dat het cash in week 7 onder de geconfigureerde veiligheidsreserve zakt. Het management stelt een deel van de aankoop twee weken uit en onderhandelt over herziene Net-30-betalingsvoorwaarden met de leverancier. De omzet blijft ongewijzigd. Het cashrisico verdwijnt.
@@ -276,7 +276,7 @@ Naarmate de brongegevens groeien, breiden de berekeningen zich automatisch uit z
 
 ### De beslissing
 
-Het management keurt een voorraadorder van $180,000 goed omdat de bank momenteel $420,000 bevat.
+Het management keurt een voorraadorder van $180.000 goed omdat de bank momenteel $420.000 bevat.
 
 ---
 
@@ -518,18 +518,18 @@ Deze formules creëren een volledig dynamische reconciliatie-engine zonder gekop
 
 ## Voorbeeldscenario (Deel 1)
 
-Stel u een groeiend Shopify-merk voor dat ongeveer **USD 520,000 aan maandelijkse omzet** genereert.
+Stel u een groeiend Shopify-merk voor dat ongeveer **USD 520.000 aan maandelijkse omzet** genereert.
 
 De huidige bedrijfsomstandigheden omvatten:
 
 | Item | Waarde |
 |-------|---------:|
-| Huidig banksaldo | $468,000 |
-| Openstaande inkooporder | $210,000 |
+| Huidig banksaldo | $468.000 |
+| Openstaande inkooporder | $210.000 |
 | Vereiste aanbetaling | 30% |
 | Resterende leveranciersbetaling | 70% |
-| Wekelijkse advertentie-uitgaven | $34,000 |
-| Veiligheidsreserve cash | $100,000 |
+| Wekelijkse advertentie-uitgaven | $34.000 |
+| Veiligheidsreserve cash | $100.000 |
 | Gemiddelde Shopify-settlementvertraging | 4 dagen |
 
 Op het eerste gezicht concludeert het management dat er voldoende liquiditeit is om de inkooporder direct goed te keuren.
@@ -570,20 +570,20 @@ De geprojecteerde cashbeweging ziet er nu als volgt uit:
 
 | Week | Begin-Cash | Cash In | Cash Uit | Eind-Cash |
 |------|-------------:|---------:|----------:|------------:|
-| Week 1 | $468,000 | $92,400 | $97,600 | $462,800 |
-| Week 2 | $462,800 | $118,300 | $121,900 | $459,200 |
-| Week 3 | $459,200 | $86,700 | $158,500 | $387,400 |
-| Week 4 | $387,400 | $95,800 | $144,600 | $338,600 |
-| Week 5 | $338,600 | $101,400 | $129,700 | $310,300 |
-| Week 6 | $310,300 | $84,900 | $176,200 | $219,000 |
-| Week 7 | $219,000 | $73,600 | $196,800 | **$95,800** |
-| Week 8 | $95,800 | $168,700 | $118,500 | $146,000 |
-| Week 9 | $146,000 | $179,100 | $136,700 | $188,400 |
-| Week 10 | $188,400 | $161,200 | $119,500 | $230,100 |
-| Week 11 | $230,100 | $156,300 | $121,800 | $264,600 |
-| Week 12 | $264,600 | $170,500 | $135,700 | $299,400 |
+| Week 1 | $468.000 | $92.400 | $97.600 | $462.800 |
+| Week 2 | $462.800 | $118.300 | $121.900 | $459.200 |
+| Week 3 | $459.200 | $86.700 | $158.500 | $387.400 |
+| Week 4 | $387.400 | $95.800 | $144.600 | $338.600 |
+| Week 5 | $338.600 | $101.400 | $129.700 | $310.300 |
+| Week 6 | $310.300 | $84.900 | $176.200 | $219.000 |
+| Week 7 | $219.000 | $73.600 | $196.800 | **$95.800** |
+| Week 8 | $95.800 | $168.700 | $118.500 | $146.000 |
+| Week 9 | $146.000 | $179.100 | $136.700 | $188.400 |
+| Week 10 | $188.400 | $161.200 | $119.500 | $230.100 |
+| Week 11 | $230.100 | $156.300 | $121.800 | $264.600 |
+| Week 12 | $264.600 | $170.500 | $135.700 | $299.400 |
 
-Het dashboard markeert week 7 direct omdat de geprojecteerde liquiditeit onder de geconfigureerde **veiligheidsreserve cash van $100,000** zakt.
+Het dashboard markeert week 7 direct omdat de geprojecteerde liquiditeit onder de geconfigureerde **veiligheidsreserve cash van $100.000** zakt.
 
 In plaats van het probleem te ontdekken nadat betalingen al zijn vrijgegeven, identificeert de financiële afdeling de beperking zes weken vooraf.
 
