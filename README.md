@@ -176,6 +176,172 @@ The Excel workbook follows a strict **three-layer financial modeling standard** 
 ---
 
 ### System Data Flow & Validation Architecture
+
+
+```
+
+```
+            ┌────────────────────────────┐
+            │         Data Input         │
+            └─────────────┬──────────────┘
+                          │
+ Shopify Orders           │
+ Bank Transactions        │
+ Accounting Entries       │
+ Purchase Orders          │
+ Advertising Spend        │
+ Parameters               │
+                          ▼
+  ┌───────────────────────────────────────────┐
+  │       Analytical Calculation Layer        │
+  │                                           │
+  │ Reconciliation Engine                     │
+  │ Payment Review                            │
+  │ Cash Flow Forecast                        │
+  │ Inventory Impact Simulator                │
+  └───────────────────────┬───────────────────┘
+                          │
+                          ▼
+          ┌───────────────────────────┐
+          │ Executive Dashboard (CEO) │
+          └───────────────────────────┘
+
+```
+
+```
+
+The workbook intentionally blocks direct reporting from raw CSV inputs. Every KPI on the `Financial_Dashboard` originates from validated analytical sheets powered by structured **Excel Tables**—meaning as your row count grows from 100 to 50,000 transactions, dynamic array formulas spill and expand automatically without dragging or copying cells.
+
+---
+
+### Three Traps That Catch Experienced Ecommerce Finance Teams
+
+#### Trap 1 — Assuming Today's Bank Balance Represents Available Working Capital
+*   **The Flawed Decision:** Approving a $180,000 inventory order because the checking account currently holds $420,000 (`$420k - $180k = $240k remaining`).
+*   **Why It Fails:** Cash timing matters more than static balances. Three weeks later, supplier balance payments, ad invoices, payroll, and a 4-day Shopify settlement delay collide in Week 7, dropping actual cash to **$82,000** (breaching the **$100,000 Safety Reserve**).
+*   **Model Solution:** Evaluates projected liquidity at both the upfront deposit week and final payment week before money is committed:
+
+```excel
+=LET(
+min_cash,
+XLOOKUP(
+"Safety_Cash_Reserve",
+Parameters[Param_Name],
+Parameters[Param_Value],
+50000
+),
+...
+)
+
+```
+
+#### Trap 2 — Treating Every Completed Shopify Order as Collected Cash
+
+* **The Flawed Decision:** Assuming $615,000 in reported Shopify sales equals $615,000 in bank deposits.
+* **Why It Fails:** One payout may bundle multiple orders; one order may split across partial settlements; chargebacks and gateway reserves create silent variances.
+* **Model Solution:** Constructs a unique order index and dynamically maps net Shopify expected payments against aggregated bank reference inflows:
+
+```excel
+=UNIQUE(
+FILTER(
+Shopify_Data[Order ID],
+Shopify_Data[Order ID]<>""))
+
+```
+
+```excel
+=MAP(
+A2#,
+LAMBDA(order_id,
+SUMIFS(
+Bank_Transactions[Amount],
+Bank_Transactions[Reference ID],
+order_id
+)))
+
+```
+
+#### Trap 3 — Relying on Static Monthly Budgets During High-Velocity Scaling
+
+* **Walkthrough Case ($520,000/mo Shopify Brand):** With $468,000 in opening cash, a $210,000 PO (30% deposit / 70% balance), and $34,000/week in ad spend, static monthly budgets show a profitable quarter ending at **$299,400**. However, the **12-Week Rolling Forecast** exposes a temporary Week 7 trough of **$95,800** (below the $100,000 safety floor). By delaying the supplier balance payment by 14 days or splitting the PO into two batches, the brand preserves full operational continuity.
+
+| Week | Opening Cash | Cash In | Cash Out | Ending Cash | Reserve Status |
+| --- | --- | --- | --- | --- | --- |
+| Week 1 | $468,000 | $92,400 | $97,600 | $462,800 | Safe |
+| Week 3 | $459,200 | $86,700 | $158,500 | $387,400 | Safe |
+| Week 6 | $310,300 | $84,900 | $176,200 | $219,000 | Safe |
+| **Week 7** | **$219,000** | **$73,600** | **$196,800** | **$95,800** | **BREACH (Below $100k)** |
+| Week 8 | $95,800 | $168,700 | $118,500 | $146,000 | Recovered |
+| Week 12 | $264,600 | $170,500 | $135,700 | $299,400 | Safe |
+
+---
+
+### Core Formula Reference & Input Validation Rules
+
+* **Rolling 12-Week Timeline Generator:** `=TODAY()+SEQUENCE(1,12,0,7)`
+* **Dynamic Weekly Ad Spend Aggregation:**
+```excel
+=MAP(
+C1#,
+LAMBDA(
+week_start,
+SUMIFS(
+Advertising_Spend[Cost],
+Advertising_Spend[Date],
+">="&week_start,
+Advertising_Spend[Date],
+"<"&week_start+7)))
+
+```
+
+
+* **Automated Reconciliation Variance Classifier:**
+```excel
+=MAP(
+D2#,
+LAMBDA(diff,
+IFS(
+diff=0,
+"Matched",
+ABS(diff)<0.05,
+"Minor Difference",
+TRUE,
+"Variance")))
+
+```
+
+
+
+| Input Field | Built-In Validation Rule | System Error Handling Behavior |
+| --- | --- | --- |
+| `Order ID` | Non-blank string | Excluded from dynamic reconciliation index |
+| `Invoice Number` | `COUNTIF` duplicate check | Triggers immediate AP duplicate payment warning |
+| `Payment Amount` | Strict numeric validation | Non-numeric records bypassed until corrected |
+| `Purchase Order Value` | Positive numeric value | Disables PO simulation for invalid rows |
+| `Prepayment Percentage` | Decimal between `0%` and `100%` | Triggers parameter range warning |
+| `Safety Cash Reserve` | Positive numeric threshold | Applies `$50,000` fallback default if omitted |
+
+---
+
+## About the Creator & More Operational Decision-Support Toolkits
+
+I build lightweight **Microsoft Excel financial models** and browser-based **operational decision-support toolkits** for high-velocity business environments where fragmented software makes reliable capital allocation difficult. Every framework answers one foundational question:
+
+> *"What cross-functional data needs to exist in one centralized model before the next high-stakes financial decision can be made confidently?"*
+
+### Explore Other Financial & Operational Models in This Series:
+
+* **Construction Project Cost Control & Job Costing Workbook**
+* **Ecommerce Revenue Management & Pricing Decision Engine**
+* **Amazon Seller FBA Settlement & Profitability Automation**
+* **CRM & Shopify Multi-Touch Marketing Attribution Model**
+* **Multifamily Real Estate Acquisition Financial Model**
+* **Executive FP&A KPI Dashboards & Rolling Forecast Frameworks**
+
+Browse the full library of commercial-grade spreadsheets, interactive web simulators, and implementation guides at **[Theseus Workshop — Operational Financial Modeling & Decision-Support Excel Toolkits](https://www.theseusworkshop.com/)**.
+
+---
+
 ## License
 
 Licensed under the **Apache License 2.0**.
