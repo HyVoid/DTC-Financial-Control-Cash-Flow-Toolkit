@@ -175,12 +175,10 @@ The Excel workbook follows a strict **three-layer financial modeling standard** 
 
 ---
 
-### System Data Flow & Validation Architecture
+<details>
+<summary><strong>System Data Flow & Validation Architecture</strong></summary>
 
-
-```
-
-```
+```text
             ┌────────────────────────────┐
             │         Data Input         │
             └─────────────┬──────────────┘
@@ -205,18 +203,20 @@ The Excel workbook follows a strict **three-layer financial modeling standard** 
           ┌───────────────────────────┐
           │ Executive Dashboard (CEO) │
           └───────────────────────────┘
-
-```
-
 ```
 
 The workbook intentionally blocks direct reporting from raw CSV inputs. Every KPI on the `Financial_Dashboard` originates from validated analytical sheets powered by structured **Excel Tables**—meaning as your row count grows from 100 to 50,000 transactions, dynamic array formulas spill and expand automatically without dragging or copying cells.
 
+</details>
+
 ---
 
-### Three Traps That Catch Experienced Ecommerce Finance Teams
+<details>
+<summary><strong>Three Traps That Catch Experienced Ecommerce Finance Teams</strong></summary>
 
-#### Trap 1 — Assuming Today's Bank Balance Represents Available Working Capital
+<details>
+<summary><strong>Trap 1 — Assuming Today's Bank Balance Represents Available Working Capital</strong></summary>
+
 *   **The Flawed Decision:** Approving a $180,000 inventory order because the checking account currently holds $420,000 (`$420k - $180k = $240k remaining`).
 *   **Why It Fails:** Cash timing matters more than static balances. Three weeks later, supplier balance payments, ad invoices, payroll, and a 4-day Shopify settlement delay collide in Week 7, dropping actual cash to **$82,000** (breaching the **$100,000 Safety Reserve**).
 *   **Model Solution:** Evaluates projected liquidity at both the upfront deposit week and final payment week before money is committed:
@@ -232,10 +232,12 @@ Parameters[Param_Value],
 ),
 ...
 )
-
 ```
 
-#### Trap 2 — Treating Every Completed Shopify Order as Collected Cash
+</details>
+
+<details>
+<summary><strong>Trap 2 — Treating Every Completed Shopify Order as Collected Cash</strong></summary>
 
 * **The Flawed Decision:** Assuming $615,000 in reported Shopify sales equals $615,000 in bank deposits.
 * **Why It Fails:** One payout may bundle multiple orders; one order may split across partial settlements; chargebacks and gateway reserves create silent variances.
@@ -261,7 +263,10 @@ order_id
 
 ```
 
-#### Trap 3 — Relying on Static Monthly Budgets During High-Velocity Scaling
+</details>
+
+<details>
+<summary><strong>Trap 3 — Relying on Static Monthly Budgets During High-Velocity Scaling</strong></summary>
 
 * **Walkthrough Case ($520,000/mo Shopify Brand):** With $468,000 in opening cash, a $210,000 PO (30% deposit / 70% balance), and $34,000/week in ad spend, static monthly budgets show a profitable quarter ending at **$299,400**. However, the **12-Week Rolling Forecast** exposes a temporary Week 7 trough of **$95,800** (below the $100,000 safety floor). By delaying the supplier balance payment by 14 days or splitting the PO into two batches, the brand preserves full operational continuity.
 
@@ -274,12 +279,22 @@ order_id
 | Week 8 | $95,800 | $168,700 | $118,500 | $146,000 | Recovered |
 | Week 12 | $264,600 | $170,500 | $135,700 | $299,400 | Safe |
 
+</details>
+
+</details>
+
 ---
 
-### Core Formula Reference & Input Validation Rules
+<details>
+<summary><strong>Core Formula Reference & Input Validation Rules</strong></summary>
+
+<details>
+<summary><strong>Core Formula Reference</strong></summary>
 
 * **Rolling 12-Week Timeline Generator:** `=TODAY()+SEQUENCE(1,12,0,7)`
+
 * **Dynamic Weekly Ad Spend Aggregation:**
+
 ```excel
 =MAP(
 C1#,
@@ -294,8 +309,8 @@ Advertising_Spend[Date],
 
 ```
 
-
 * **Automated Reconciliation Variance Classifier:**
+
 ```excel
 =MAP(
 D2#,
@@ -310,7 +325,10 @@ TRUE,
 
 ```
 
+</details>
 
+<details>
+<summary><strong>Input Validation Rules</strong></summary>
 
 | Input Field | Built-In Validation Rule | System Error Handling Behavior |
 | --- | --- | --- |
@@ -320,6 +338,13 @@ TRUE,
 | `Purchase Order Value` | Positive numeric value | Disables PO simulation for invalid rows |
 | `Prepayment Percentage` | Decimal between `0%` and `100%` | Triggers parameter range warning |
 | `Safety Cash Reserve` | Positive numeric threshold | Applies `$50,000` fallback default if omitted |
+
+</details>
+
+</details>
+
+</details>
+
 
 ---
 
